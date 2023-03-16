@@ -1,0 +1,51 @@
+.top-items-container {
+    background-color: white;
+    padding: 100px;
+}
+
+.top-items-container h2 {
+    text-align: center;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 50px;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+
+
+.top-items-container p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #515151;
+    margin-bottom: 50px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .top-items-container h2 {
+        font-size: 24px;
+        padding: 40px;
+        margin-bottom: 0px;
+    }
+
+    .top-items-container p {
+        font-size: 12px;
+        margin-bottom: 0px;
+        padding: 40px;
+    }
+
+    .top-items-container {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 100px;
+    }
+}

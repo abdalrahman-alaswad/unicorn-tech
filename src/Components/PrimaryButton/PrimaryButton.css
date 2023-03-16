@@ -1,0 +1,27 @@
+.primary-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #F86338;
+    color: white;
+    width: 156px;
+    height: 56px;
+    border-radius: 5px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    transition: all 0.3s ease-in;
+}
+
+.primary-btn:hover {
+    transform: translateY(-10px);
+}
+
+.primary-btn:active {
+    transform: translateY(0px);
+}

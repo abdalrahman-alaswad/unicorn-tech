@@ -1,0 +1,53 @@
+.card {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 40px;
+}
+
+.card p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #9A9AB0;
+}
+
+.card h3 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #11142D;
+}
+
+.icon-collection-container {
+    font-size: 40px;
+    color: #F86338;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 200px;
+        height: 250px;
+        padding: 20px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .card h3 {
+        font-size: 24px;
+    }
+
+    .icon-collection-container {
+        font-size: 20px;
+    }
+}

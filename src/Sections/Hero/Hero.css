@@ -1,0 +1,46 @@
+.hero-con {
+    height: 640px;
+    background-image: url("../../assets/Images/Mask\ Group.png");
+    background-color: white;
+}
+
+.text-con {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-con h1 {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76.8px;
+    letter-spacing: 0.3%;
+}
+
+.text-con p {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .text-con h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .text-con {
+        align-items: center;
+        padding: 20px;
+    }
+
+    .text-con p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+}
